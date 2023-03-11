@@ -9,7 +9,7 @@ let postid;
 
 describe('API tests', () => {
 
-  it.only('Registration and login', () => {
+  it('Registration and login', () => {
     
   cy.request({
     method: 'POST',
