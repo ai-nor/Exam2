@@ -206,7 +206,7 @@ describe('API tests', () => {
     })
   })
 
-  it.only('Create post entity, update the created entity, and delete the entity', () => {
+  it('Create post entity, update the created entity, and delete the entity', () => {
     cy.request({
       method: 'POST',
       url: '/posts',
